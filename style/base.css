@@ -1,0 +1,57 @@
+/*
+    See the JupyterLab Developer Guide for useful CSS Patterns:
+
+    https://jupyterlab.readthedocs.io/en/stable/developer/css.html
+*/
+.custom-ui {
+    margin-bottom: -1px;
+    background-color: #000000;
+    padding: 4px 5px;
+    color: #ffffff;
+    display: flex;
+    font-size: 12px;
+    border: 1px solid #1976d2;
+    border-radius: 2px;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    margin-left: 71px;
+}
+
+#jp-MainLogo{
+    display: none !important;
+}
+.btn-preview jp-button{
+    padding: 2px 8px;
+}
+.btn-preview jp-button span{
+    color: white;
+}
+.btn-preview.btn-blue jp-button{    
+    background-color: #1976d2 !important;
+}
+.btn-preview.btn-blue jp-button:hover{
+    background-color: #1565c0 !important;
+}
+
+.btn-preview.btn-info jp-button {
+    background-color: #0dcaf0 !important;
+}
+
+.btn-preview.btn-info jp-button:hover {
+    background-color: #31d2f2 !important;
+}
+
+/* lab icon color menupulate by using background image */
+.bg-icon-green{    
+            filter: invert(52%) sepia(33%) saturate(1241%) hue-rotate(97deg) brightness(95%) contrast(90%);        
+}
+.bg-icon-red {
+    filter: invert(40%) sepia(68%) saturate(747%) hue-rotate(331deg) brightness(95%) contrast(94%);
+}
+.d-none{
+    display: none !important;
+}
+.d-block{
+    display: block !important;
+}
